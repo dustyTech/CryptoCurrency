@@ -1,0 +1,1349 @@
+/*creating css custom font for raisonne*/
+
+@font-face{
+
+    font-family: 'raisonne';
+
+    src: url('../webfonts/raisonne-demibold.ttf');
+
+}
+
+/*creating css custom font for trajan*/
+
+@font-face{
+
+    font-family: 'trajan';
+
+    src: url('../webfonts/trajan.ttf');
+
+}
+
+.trajan-font{
+
+	font-family: 'trajan';
+
+}
+
+h1,h2,h3,h4,h5,h6{
+
+	font-family: trajan;
+
+	text-align: center;
+
+}
+
+p{
+
+	text-align: center;
+
+}
+
+ul li{
+
+	list-style: none;
+
+	padding: 5px;
+
+	
+
+}
+
+ul li a {
+
+	color: #efefef!important;
+
+}
+
+
+
+body{
+
+	font-family: 'raleway',sans-serif;
+
+	overflow-x: hidden;
+
+	transition: 0.5s all;
+
+	font-size: .9em;
+
+	font-weight: 500;
+
+}
+
+.main-wrapper{
+
+	width: 100%;
+
+	overflow: hidden;
+
+	height: auto;
+
+}
+
+
+
+.clearfix{
+
+	clear: both;
+
+	padding: 2px;
+
+}
+
+img{
+
+	max-height: 100%;
+
+	max-width: 100%;
+
+}
+
+a{
+
+	text-decoration: none!important;
+
+}
+
+
+
+/*--- main-bg ----*/
+
+#main-bg{
+
+	width: 100%;
+
+	background-position: center;
+
+	background-size: cover;
+
+	-webkit-background-size: cover;
+
+	-moz-background-size: cover;
+
+	-o-background-size: cover;
+
+	height: 100vh;
+
+	overflow: hidden;
+
+	background-image:url('../images/bg1.jpg');
+
+
+
+	}
+
+
+
+#particles-js{
+
+	position: absolute;
+
+	display: block;
+
+	z-index: 0;
+
+	width: 100%;
+
+	height: 80vh;
+
+}
+
+
+
+.loss-gain{
+
+	background: #fff;
+
+	font-size: .7em;
+
+	font-family: trajan;
+
+}
+
+.biro-blue{
+
+	color: #0d1d3a;
+
+}
+
+.lost{
+
+	color: #a70000;
+
+}
+
+.gain{
+
+	color: #00c32e;
+
+}
+
+
+
+
+
+/*-----------------styling for the brand--------------------*/
+
+.brand{
+
+	width: 7em; 
+
+	float: left;
+
+	position: relative;
+
+	z-index: 3;
+
+}
+
+/*======================navigation =======================*/
+
+.col-nav-area{
+
+	z-index: 1000;
+
+	 background-image:url('../images/bg1.jpg');
+
+	 transition: ease-in-out .6s;
+
+	 z-index: 20;
+
+}
+
+
+
+nav ul li a{
+
+	color: #fff!important;
+
+}
+
+nav ul li:hover{
+
+	border-bottom: 2px solid #dc3545; 
+
+	transition: all 0.3s;
+
+	transform: translateY(10px);
+
+}
+
+nav ul li a:hover{
+
+	color: #dc3545!important;
+
+	transition: all 0.3s;
+
+}
+
+.navbar-toggler{
+
+	border: none!important;
+
+}
+
+
+
+/*----------------------------------styling for large top bg text -----------------------------*/
+
+
+
+/*===============styling for hamburger*/
+
+.navbar-toggler-ico {
+
+	background-image: url(../images/headset.png);
+
+}
+
+
+
+
+
+
+
+
+
+/*=============styling for fafa user =======================================*/
+
+.user{
+
+	font-size: 1.4em; 
+
+	color:#e9e9e9;
+
+}
+
+.sign-up{
+
+	border: 2px solid #dc3545;
+
+	font-size: .79em;
+
+	color: #fff;
+
+	float: right;
+
+}
+
+.sign-up:hover{
+
+	color: #dc3545;
+
+	text-decoration: none;
+
+}
+
+.sign-in{
+
+	margin-right: 10px;
+
+	font-size: .79em;
+
+	float: right;
+
+}
+
+/*============= end styling for fafa user =======================================*/
+
+
+
+.live{
+
+	list-style: none;
+
+	color: #fcca00;
+
+	font-family: trajan;
+
+	font-size: .6em;
+
+	cursor: pointer;
+
+	width: 120px;
+
+	overflow: hidden;
+
+	
+
+}
+
+.live p{
+
+	padding-right:10px;
+
+}
+
+.bt-live-price{
+
+	border-left: 2px solid #fff;
+
+	padding-left: 25px;
+
+	padding-right: 25px;
+
+	height: 40px;
+
+	overflow: hidden;
+
+}
+
+
+
+.text-bg{
+
+	margin: 8em 0;
+
+}
+
+.text-bg-texts{
+
+	cursor: pointer;
+
+	text-align: center;
+
+	font-family: raleway;
+
+	color: #fff;
+
+	position: relative;
+
+}
+
+.text-bg h2{
+
+	font-size: 3em;
+
+}
+
+.text-bg h5{
+
+	color: #fcca00;
+
+}
+
+.learn-more{
+
+	background: #dc3545;
+
+	border: none;
+
+	font-size: 1.3em;
+
+	transition: .8s ease;
+
+}
+
+.learn-more:hover{
+
+	font-size: 1.5em;
+
+}
+
+.social-media{
+
+	font-size: 2em;
+
+	color: #fff;
+
+	transition: .8s ease;
+
+}.social-media:hover{
+
+	/*font-size: 2.2em;*/
+
+	color: #fcca00;
+
+}
+
+
+
+/*================================================styling of the four styling section================================================*/
+
+
+
+.four-col-section{
+
+	position: relative;
+
+	z-index: 6;
+
+	background: #fff;
+
+	margin: 5em 0;
+
+	opacity: 0;
+
+	transform: translateY(50px);
+
+	transition: all 1s ease-in-out;
+
+}
+
+.fade-in{
+
+	opacity: 1;
+
+	transform: translateY(0);
+
+}
+
+.four-col-section h1{
+
+	padding: 60px 0;
+
+}
+
+.four-col-section h1::after{
+
+	content: '';
+
+    background: #0a3b60;
+
+    display: block;
+
+    height: 3px;
+
+    width: 400px;
+
+    margin: 1px auto;
+
+}
+
+
+
+.icon{
+
+	width: 7em; 
+
+	height: 7em; 
+
+	border-radius: 100%; 
+
+	margin: 1em auto;
+
+	padding: 25px;
+
+	border: 2px #1f578a solid;
+
+}
+
+
+
+/*=======================================styling for why choose-us===================================================================*/
+
+.choose-us{
+
+	height: 70vh;
+
+	background-image:linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.8)), url('../images/bg3.jpg');
+
+	background-size: cover;
+
+	background-position: center;
+
+	/*background-attachment: fixed;*/
+
+	overflow: hidden;
+
+}
+
+.col-lady{
+
+    height: 73vh;
+
+    padding: 18px;	
+
+}
+
+
+
+.choose-us-reason h3{ 
+
+	color: #fff;
+
+	padding: 10px; 
+
+	text-align: center;
+
+}
+
+.choose-us-reason h3::after{
+
+	content: '';
+
+	background: #efefef;
+
+	display: block;
+
+	height: 3px;
+
+	width: 100px; 
+
+	margin: 1px auto;
+
+}
+
+.choose-us-reason-txt{
+
+	background: #fff;
+
+	padding: 3px; 
+
+	margin: 2px 0;
+
+	transform: translateX(110%);
+
+	opacity: 0;
+
+
+
+}
+
+.fade-in-choose{
+
+	opacity: 1;
+
+	transform: translateX(0);
+
+}
+
+
+
+/*=======================================styling for market-overview===================================================================*/
+
+.market-o{
+
+	margin: 30px 0; 
+
+}
+
+.market-o p{
+
+	font-size: 1.4em;
+
+}
+
+.market-o-img{
+
+	height: 51vh; 
+
+	transform: translateX(-100%);
+
+	transition: 1.5s ease-in-out;
+
+	opacity: 0;
+
+}   
+
+.youtube{
+
+	transform: translateX(100%);
+
+	transition: 1.5s ease-in-out;
+
+	opacity: 0;
+
+}
+
+.fade-in-market-0{
+
+	transform: translateX(0);
+
+	opacity: 1;
+
+}
+
+
+
+/*=======================================styling for TRADE OPTION===================================================================*/
+
+.trade-option{
+
+	background: #cccccc;
+
+}
+
+.trade-option-1, .trade-option-2{
+
+	border-radius: 1%;
+
+	margin: 20px; 
+
+	color: #fff;
+
+	font-size: .8em;
+
+	opacity: 0;
+
+		-webkit-transform: rotate(40deg) scale(0.5);
+
+			 -moz-transform: rotate(40deg) scale(0.5);
+
+				-ms-transform: rotate(40deg) scale(0.5);
+
+				 -o-transform: rotate(40deg) scale(0.5);
+
+						transform: rotate(40deg) scale(0.5);
+
+		-webkit-transition: all 0.8s ease-in-out;
+
+			 -moz-transition: all 0.8s ease-in-out;
+
+				-ms-transition: all 0.8s ease-in-out;
+
+				 -o-transition: all 0.8s ease-in-out;
+
+						transition: all 0.8s ease-in-out;
+
+}   
+
+.fade-in-trade{
+
+	opacity: 1;
+
+		-webkit-transform: none;
+
+			 -moz-transform: none;
+
+				-ms-transform: none;
+
+				 -o-transform: none;
+
+						transform: none;
+
+}
+
+.trade-option-1{
+
+	background: #486271;
+
+}
+
+.trade-option-2{
+
+	background: #486271;
+
+}
+
+.trade-option-1 h5{
+
+	padding: 8px; 
+
+}
+
+.t-color-1{
+
+	background: #1fb05c;
+
+}
+
+.green{
+
+	color: #1fb05c;
+
+}
+
+
+
+/*=======================================styling for best OPTION===================================================================*/
+
+.best-option{
+
+	height: auto;
+
+	background: url(../images/b-opt.jpg) no-repeat;
+
+    background-size: cover;
+
+    color: #fff;
+
+    padding: 0 0 2em 0;
+
+}
+
+.create-acc{
+
+	padding: 10px; 
+
+	transition: .8s ease;
+
+	border: 0;
+
+}
+
+.create-acc:hover{
+
+	background: #da0000;
+
+}
+
+.eight-icon{
+
+	width: 60px;
+
+	padding: 2px;
+
+	transition: .8s ease;
+
+	opacity: 0; 
+
+	transform: rotate(0.5turn);
+
+}
+
+.eight-icon-others{
+
+	transition: .8s ease;
+
+	opacity: 0; 
+
+	transform: rotate(0.5turn);
+
+}
+
+.fade-in-eight{
+
+	opacity: 1;
+
+	transform: rotate(0);
+
+
+
+}
+
+/*==============================styling for count-up.js==================================================================*/
+
+.col-count-up{
+
+	width: 10em;
+
+	height: 10em;
+
+	border: 2px solid #fff; 
+
+	border-radius: 50%; 
+
+	margin: 0 auto;
+
+}
+
+.count-up-icon{
+
+	font-color: #fff;
+
+	font-size: 5em;
+
+	margin: .3em .5em;
+
+
+
+}
+
+.t-u{
+
+	margin: 5px 0;
+
+}
+
+
+
+/*=========================================styling for footer================================================*/
+
+.footer{
+
+	background: url('../images/bg2.jpg') no-repeat;
+
+	background-color: #03031f;
+
+	background-position: center;
+
+	background-size: cover;
+
+	color:#fff;
+
+	font-size: .8em;
+
+	padding: 10px;
+
+	transition: .8s ease-in;
+
+	/*transform: translate(30px, 20px) rotate(20deg);*/
+
+	opacity: 0;
+
+}
+
+.fade-in-footer{
+
+	opacity: 1;
+
+	/*transform: translate(0) rotate(0);*/
+
+}
+
+.quick-link{
+
+}
+
+.pay-met-img{
+
+	width: 7.8em; 
+
+	height: 8em;
+
+}
+
+/*=====================================================styling for about us section =============================================*/
+
+.abt-us, .faq-head, .pricing-head, .bg-contact-us{
+
+	height: 40vh;
+
+	position: relative;
+
+	z-index: 0;
+
+	background-position: center;
+
+	background-size: cover; 
+
+	margin: 0 0 10vh 0; 
+
+}
+
+.abt-us{
+
+	background: url('../images/bg3.jpg');
+
+}
+
+.abt-us-txt h2{
+
+	font-family: raleway;
+
+	padding: 80px;
+
+	font-weight: 400;
+
+	text-align: left;
+
+	color: #efefef;
+
+	font-size: 3em;
+
+}
+
+.flying-man{
+
+	width: 40vh;
+
+	margin:50px 20px;
+
+	float: right;
+
+}
+
+.abt-p-txt p{
+
+	text-align: left;
+
+	font-family: raleway;
+
+	font-size: .9em;
+
+}
+
+
+
+/*==========================styling for the pricing section ================================*/
+
+.price-package{
+
+	background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)), url(../images/bg4.jpg) no-repeat center center;
+
+	height: auto;
+
+	color: #fff;
+
+	margin: 80px 0 20px 0;
+
+}
+
+.pricing-head{
+
+	background: url(../images/bg2-pricing.jpg);
+
+}
+
+.price-package h3{
+
+	padding: 50px; 
+
+}
+
+.price-package h3::after{
+
+	content: '';
+
+    background: #efefef;
+
+    display: block;
+
+    height: 3px;
+
+    width: 400px;
+
+    margin: 1px auto;
+
+    transition: .8s ease-in-out;
+
+}
+
+.price-package h3:hover::after{
+
+	content: '';
+
+    background: #070c3d;
+
+    display: block;
+
+    height: 3px;
+
+    width: 400px;
+
+    margin: 1px auto;
+
+
+
+}
+
+.price-icon-planA {
+
+	width: 150px; 
+
+	height: 150px; 
+
+	border-radius: 100%;
+
+	border: 2px #fff solid; 
+
+	margin: 9px auto;
+
+}
+
+.price-icon-planB {
+
+	width: 150px; 
+
+	height: 150px; 
+
+	border-radius: 100%;
+
+	border: 2px #333 solid; 
+
+	margin: 9px auto;
+
+}
+
+.price-sec{
+
+	border-radius: 30px; 
+
+	
+
+	margin-bottom: 40px;
+
+	opacity: 0;
+
+	transform: translateX(200%);
+
+
+
+}
+
+.fade-in-price{
+
+	opacity: 1;
+
+	transform: translateX(0);
+
+}
+
+.price-sec:hover{
+
+	cursor: pointer;
+
+	background: #0d1d37 ;
+
+}
+
+.price-sec p{
+
+	font-size: .8em;
+
+}
+
+.pricing-btn{
+
+	margin: 2px auto;
+
+}
+
+/* ===============================styling for FAQ starts here =================================*/
+
+.faq h3{
+
+	padding: 0 0 30px 0;
+
+}
+
+.faq h3::after{
+
+	content: '';
+
+	background: #fff; 
+
+	display: block;
+
+	height: 3px; 
+
+	width: 100px; 
+
+	margin: 1px auto; 
+
+}
+
+.faq-icon{
+
+	display: block;
+
+}
+
+.faq-head{
+
+	background: url('../images/bg2-faq.jpg');
+
+}
+
+
+
+/*===================================contact us styling starts here=================================*/
+
+
+
+.col-contact-side{
+
+	margin: 20px 0 0 0;
+
+}
+
+.col-contact-side-i{
+
+	font-size: 3em;
+
+	padding-top: 10px;
+
+}
+
+.col-contact-side b{
+
+	padding-left: 45px;
+
+}.col-contact-side p{
+
+	padding-left: 90px;
+
+}
+
+.bg-contact-us{
+
+	background: url(../images/bg-contact.jpg);
+
+}
+
+
+
+/*=============================styling for sign-up section in the area ====================================*/
+
+.sign-up-bg{
+
+	background: url(../images/b-opt.jpg);
+
+	background-position: center; 
+
+	background-size: cover;
+
+	height:auto;
+
+}
+
+.btn-submit{
+
+	width: 10em;
+
+	background: #dc3545 ;
+
+	border: 0 solid;
+
+}
+
+.col-form{
+
+	margin: 2px auto; 
+
+	padding: 30px;
+
+}
+
+.form-main-sec{
+
+	background: #fff; 
+
+	border-radius: 10px;
+
+    padding: 1em;
+
+}
+
+.sign-up-col-txt p, h3{
+
+	text-align: left;
+
+}
+
+#message {
+
+	width: 80px;
+
+	margin: 20px auto;
+
+	color: #fff;
+
+}
+
+.form-action{
+
+    width: 80%;
+
+    height: 10vh;
+
+    margin: 3px auto;
+
+    color: #fff;
+
+}
+
+.cen{
+
+	text-align: center;
+
+}
+
+/*========= styling for the google select language============*/
+
+
+
+/*Extra small devices (portrait phones', less than 576px)*/
+
+/*// No media query for `xs` since this is the default in Bootstrap*/
+
+
+
+
+
+/*===========Responsiveness========================*/
+
+/*// Small devices (landscape phones, 576px and up)*/
+
+@media screen and (max-width:576px ){
+
+/*-----------------------for the nav-----------------------*/
+
+
+
+
+
+	.four-col-section h1{
+
+		font-size:1.3em;
+
+	}
+
+	
+
+	.choose-us{
+
+		height: auto;
+
+	}
+
+	.col-lady{
+
+	    margin: 0 auto;
+
+	}
+
+	.trade-option-1{
+
+		overflow: scroll;
+
+	}
+
+	.text-bg{
+
+		margin: 3em 0;
+
+	}
+
+	.text-bg h2{
+
+		font-size: 2em;
+
+	}.text-bg h5{
+
+		font-size: 1em;
+
+	}
+
+	.learn-more{
+
+		font-size: 1em;
+
+		transition: .8s ease;
+
+	}
+
+	.learn-more:hover{
+
+		font-size: 1.2em;
+
+	}
+
+
+
+	.pay-met-img {
+
+	    width: 3.8em;
+
+	}
+
+	.text-bg{
+
+		margin: 5em 0;
+
+	}
+
+	/* ============================contact us styling starts here ============================*/
+
+	.abt-us-txt h2{
+
+		padding: 80px 20px;
+
+		font-size: 2em;
+
+	}
+
+	/*================FAQ===========================*/
+
+	.faq-icon{
+
+		width: 100px; 
+
+		height: 100px;
+
+	}
+
+	.col-faq-show{
+
+		display: block;
+
+	}
+
+
+
+}
+
+
+
+@media screen and (max-width:800px ){
+
+/*-----------------------for the nav-----------------------*/
+
+
+
+	.choose-us{
+
+		height: auto;
+
+
+
+	}
+
+	
+
+
+
+
+
+}

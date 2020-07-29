@@ -1,0 +1,421 @@
+/*creating css custom font for raisonne*/
+@font-face{
+    font-family: 'raisonne';
+    src: url('../webfonts/raisonne-demibold.ttf');
+}
+/*creating css custom font for trajan*/
+@font-face{
+    font-family: 'trajan';
+    src: url('../webfonts/trajan.ttf');
+}
+.trajan-font{
+	font-family: 'trajan';
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: trajan;
+	text-align: center;
+}
+p{
+	text-align: center;
+}
+
+ul li a {
+	color: #efefef!important;
+}
+a{
+	text-decoration: none;
+}
+
+body{
+	font-family: 'raleway',sans-serif;
+	overflow-x: hidden;
+	transition: 0.5s all;
+	font-size: .9em;
+	font-weight: 500;
+}
+img{
+	max-height: 100%;
+	max-width: 100%;
+}
+
+/*=================================================styling for the dashboard section starts here============================================================================*/
+.dash-wrapper{
+	background: #efefef;
+	height: 100vh; 
+}
+.dash-side-nav{
+	background: linear-gradient(#002d84, #013cad); 
+	height: auto; 
+	position: relative;
+	z-index: 1;
+	width: 20%;
+}
+.dash-logo{
+	margin: 20px auto;
+	width: 190px;
+	padding: 10px; 
+	border-bottom: .8px solid #fff;
+}
+
+.profile-pics{
+	border-radius: 100%;
+	border: 2px solid #efefef; 
+	width: 100px;
+	height: 100px;
+	margin: 20px auto;
+	background: green;
+	overflow: hidden;
+}
+.referal-code{
+	width: 170px; 
+	height: 35px; 
+	border-radius: 30px;
+	background: #fff; 
+	margin: 10px auto; 
+	color: #002d84;
+	padding: 7px; 
+}
+.referal-code p{
+	font-weight: 600;
+}
+.user-dash-side{
+	width: 100%;
+	display: block;
+	background: #05389c;
+	margin: 20px 0;
+}
+.user-dash-side ul li{
+	padding: 10px 30px ;
+}
+.user-dash-side ul li a{
+	/*text-align: center;*/
+	padding: 10px;
+	font-size: 1.2em;
+	text-decoration: none;
+}
+.user-dash-side ul li{
+	position: relative;
+	margin-left: -3em;
+	border-radius: 5px;
+	transition: .7s ease-in-out;
+	
+}
+.user-dash-side ul li:hover{
+	background: #3665fc;
+}
+.dash-icon{
+	color: #fff;
+	font-size: 1.2em;
+}
+
+.dash-main{
+	height: auto;
+	/*margin: -5px;*/
+	width: 80%;
+	background: #efefef;
+}
+.dash-main-top h3{
+	padding: 20px; 
+	text-align: left;
+	width: auto; 
+	float: left;
+}
+.dash-main-2{
+	background: #fff;
+	padding: 13px;
+	height: 15vh;
+}
+.dash-min-sme{
+	background: #dc3545;
+	margin: 10px 1.7em; 
+	text-align: center;
+	border-radius: 20px;
+	padding: 10px; 
+	color: #fff;
+	cursor: pointer;
+	border: 2px solid #dc3545;
+	transition: .4s ease-in;
+	width: 190px;
+	float: right;
+
+}
+.dash-min-sme:hover {
+	background: darkred;
+        text-decoration: none;
+        border: 0;
+	color: #fff;
+}
+
+.dash-min-sme a:hover {
+    text-decoration: none;
+}
+
+.main-col-sec{
+	height: 80vh;
+	background: #b6c7ff;
+}
+.col-small-top-icon{
+	float: right;
+
+}
+
+.col-img{
+	z-index: 4;
+	float: left;
+	margin: 5px 20px 0 2px;
+	position: fixed;
+	display: none;
+}
+.side-gif{
+	width: 130px; 
+}
+.col-md-ct{
+	width: 80%;
+	margin: 35px;
+}
+.col-md-ct h2{
+	text-align: left;
+}
+
+.col-social-media{
+	background: #fff;
+	padding: 14px; 
+	height: auto; 
+	border-radius: 30px; 
+	margin: 20px auto; 
+	width: 95%;
+}
+.font-icon-sm{
+	color: blue; 
+	font-size: 3em;
+}
+.col-social-media ul li {
+	display: inline-block;
+}
+.wel-graphic{
+	margin: -8em 0 0 0;
+	display: block;
+
+}
+
+/*four colum section styling starts here */
+.col-sec-4{
+	height: 14vh;
+	background: #002d84;
+	color: #fff;
+	padding: 20px; 
+	transition: .6s ease-in-out;
+	margin: 20px auto; 
+}
+.col-sec-4:hover{
+	background: #efefef;
+	border: 2px solid  #002d84;
+	color:  #002d84;
+}
+.col-sec-4 h4 a{
+	margin: 30px;
+	font-size: .7em;
+	text-decoration: none;
+	color:inherit; 
+	text-align: center;
+}
+
+.col-details{
+	background: #fff;
+	margin-bottom: 20px;
+}
+
+
+.col-details ul li{
+	list-style: none;
+	display: inline-block;
+	width: 10em;
+	padding: 10px;
+	}
+.col-details ul li > button{
+	font-size: .8em;
+}
+.card-2, .card-3{
+	display: none;
+}
+.col-per-info{
+	padding: 10px; 
+	/*background: red;*/
+	border-bottom: 2px #efefef solid;
+}
+.col-3v-icon{
+	background: #fff;
+	height: 18vh;
+	padding: 10px;
+}
+.col-e-icon{
+	margin-bottom: 20px;
+}
+.col-ref{
+	background: #fff;
+	margin-bottom: 20px; 
+	padding: 40px;
+}
+.col-ref-code{
+	width: auto; 
+	border: 2px solid #efefef; 
+	border-radius:10px; 
+	padding: 30px;
+}
+/*=======================styling for the deposit pagge starts here*/
+.col-deposit{
+	background: #fff;
+	margin: 80px 0;
+	height: 80vh; 
+	padding: 50px;
+
+}
+.col-deposit-2{
+	margin: 5px auto; 
+	background: #efefef;
+	padding: 15px; 
+	border-radius: 10px;
+}
+.ash{
+	background: #efefef;
+}
+.bit-add {
+	width: 100%;
+	background: #efefef;
+	border: 0;
+	border-bottom: 1.5px solid blue;
+	padding: 5px; 
+}
+.col-upload{
+	height: 60vh; 
+	padding: 40px; 
+}
+.col-v-one{
+	background: #fff;
+	padding: 20px; 
+	margin: 0 30px;
+
+}
+.col-fpv{
+	width: 80%; 
+	height: 30px; 
+	border: 0;
+	border-bottom: 1px solid blue;
+	margin: 20px auto; 
+
+}
+.col-wallet{
+	padding: 40px; 
+	background: white;
+	margin: 50px;
+}
+.t-color-1{
+	background: #1fb05c;
+}
+.hide{
+	display: none;
+}
+
+/*===============styling fr the responsive method starts herer =================*/
+@media screen and (max-width:914px ){
+	.no-padding{
+		padding: 0;
+	}
+	.dash-side-nav{
+		position: absolute;
+		z-index: 3;
+		width: 50%;
+		transition: .5s ease-in;
+		margin-left: -60%;
+	}
+	.col-deposit{
+		margin: 40px 0;
+		padding: 10px;
+
+	}
+	.col-wallet{
+		padding: 10px; 
+		margin: 0;
+	}
+}
+	.col-upload{
+
+		padding: 0; 
+	}
+
+@media screen and (max-width:576px ){
+	.dash-side-nav{
+		position: absolute;
+		z-index: 3;
+		width: 50%;
+		transition: .5s ease-in;
+		margin-left: -60%;
+	}
+	.nav-show{
+		margin-left: 0;
+	}
+
+	.col-img{
+		display: block;
+	}
+		.col-small-top-icon{
+		display: none;
+	}
+	.dash-main {
+		width: 100%;
+	}
+	.dash-main-2{
+		height: 10vh;
+	}
+	.dash-main-top h3{
+		padding: 0; 
+		text-align: center;
+		margin-left: 3em;	
+		font-size: 1.5em;
+	}
+	.col-md-ct {
+		margin: -6em 0 0 10em;
+	}
+	.col-md-ct h2{
+		font-size: 1em;
+	}
+	.side-gif{
+		float: left;
+	}
+	.wel-graphic{
+		display: none;
+
+	}
+	.col-social-media{
+		padding: 5px; 
+		width: 100%;
+		height: auto;
+	}
+	.font-icon-sm{
+		color: blue; 
+		font-size: 2em;
+	}
+
+	.col-sec-4{
+		margin: 10px auto; 
+		width: 100%!important;
+	}
+
+	.col-details ul li{
+		display: inline;
+	}
+	.hide-lera{
+		display: none;
+	}
+
+}
+
+.loss-gain{
+
+	background: #fff;
+
+	font-size: .7em;
+
+	font-family: trajan;
+
+}
